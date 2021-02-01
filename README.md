@@ -7,13 +7,8 @@ Acknowledgement to weblab staff at MIT which has provided skeleton codes and mak
 
 ## Things Undone (I will probably update this by removing finished tasks):
 0. Setup github and README.md.
-- Update this README file ;)
-- Add a favicon to your website at the path client/dist/favicon.ico
-- Update website title in client/dist/index.html
-- Update the package.json file with your app name :) (line 2)
 - Change the font in utilities.css
-- Change the Frontend CLIENT_ID for Google Auth (Skeleton.js) (we'll talk about it at the end of week 2)
-- Change the Server CLIENT_ID for Google Auth (auth.js) (we'll talk about it at the end of week 2)
+- Change the color theme in utilities.css
 
 1. Setup blank pages
 - Page: Homepage
