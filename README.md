@@ -12,12 +12,9 @@ Acknowledgement to weblab staff at MIT which has provided skeleton codes and mak
 - Update website title in client/dist/index.html
 - Update the package.json file with your app name :) (line 2)
 - Change the font in utilities.css
-- Removing socket stuff without breaking the code.
 - Change the Frontend CLIENT_ID for Google Auth (Skeleton.js) (we'll talk about it at the end of week 2)
 - Change the Server CLIENT_ID for Google Auth (auth.js) (we'll talk about it at the end of week 2)
 - Removing login stuff.
-- Change the Database SRV for Atlas (server.js)
-- Change the Database Name for MongoDB (server.js)
 
 1. Setup blank pages
 - Page: Homepage
