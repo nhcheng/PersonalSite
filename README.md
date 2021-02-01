@@ -14,7 +14,6 @@ Acknowledgement to weblab staff at MIT which has provided skeleton codes and mak
 - Change the font in utilities.css
 - Change the Frontend CLIENT_ID for Google Auth (Skeleton.js) (we'll talk about it at the end of week 2)
 - Change the Server CLIENT_ID for Google Auth (auth.js) (we'll talk about it at the end of week 2)
-- Removing login stuff.
 
 1. Setup blank pages
 - Page: Homepage
@@ -27,7 +26,8 @@ Acknowledgement to weblab staff at MIT which has provided skeleton codes and mak
 - Page: GDPR
 - Component: NavBar
 - Component: Contact Info
-- Suitable Padding stuff.
+- Suitable Padding.
+- Removing login stuff.
 
 2. Homepage
 - My profile pic.
