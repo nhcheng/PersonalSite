@@ -17,7 +17,7 @@ class Home extends Component {
     return (
       <div className="home-container">
           <div className="home-bodycontainer">
-            <h1>This is Home</h1>
+            <h1> This is Home </h1>
             <h2> What we provide in this skeleton</h2>
             <ul>
             <li>Google Auth (Skeleton.js & auth.js)</li>
