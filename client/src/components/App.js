@@ -1,9 +1,12 @@
 import React, { Component } from "react";
 import { Router } from "@reach/router";
+import NavBar from "./modules/NavBar.js";
+
 import NotFound from "./pages/NotFound.js";
-import Skeleton from "./pages/Skeleton.js";
+import Home from "./pages/Home.js";
 
 import "../utilities.css";
+import "./App.css";
 
 import { get, post } from "../utilities";
 
@@ -44,15 +47,17 @@ class App extends Component {
   render() {
     return (
       <>
-        <Router>
-          <Skeleton
-            path="/"
-            handleLogin={this.handleLogin}
-            handleLogout={this.handleLogout}
-            userId={this.state.userId}
-          />
-          <NotFound default />
-        </Router>
+        <NavBar
+              handleLogin={this.handleLogin}
+              handleLogout={this.handleLogout}
+              userId={this.state.userId}
+            />
+        <div className="App-container">
+          <Router>
+            <Home path="/" />
+            <NotFound default />
+          </Router>
+        </div>
       </>
     );
   }
