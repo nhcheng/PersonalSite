@@ -1,23 +1,33 @@
 .NavBar-container {
-    padding: var(--s) var(--m);
+    /* padding: var(--s) var(--m); */
     background-color: var(--primary);
-    height: 6vh;
+    height: 8vh;
+    box-shadow: 0 8px 10px -6px grey;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
   
   .NavBar-title {
+    padding: var(--s) var(--m);
     color: var(--white);
     font-size: 20px;
     font-family: "Nobile";
+    justify-self: start;
   }
   
   .NavBar-linkContainer {
-    margin-left: var(--l);
+    /* margin-left: var(--l); */
+    justify-self: end;
+    margin-right: var(--s);
   }
   
   .NavBar-link,
   .NavBar-link:visited {
     color: var(--white);
     opacity: 0.7;
+    font-family: "Nobile";
     text-decoration: none;
   }
   
@@ -30,5 +40,5 @@
   }
   
   .NavBar-link + .NavBar-link {
-    margin-left: var(--m);
+    margin-left: var(--l);
   }

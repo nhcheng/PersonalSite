@@ -4,6 +4,12 @@ import NavBar from "./modules/NavBar.js";
 
 import NotFound from "./pages/NotFound.js";
 import Home from "./pages/Home.js";
+import Teaching from "./pages/Teaching.js"
+import MyStory from "./pages/MyStory.js"
+import Achieve from "./pages/Achieve.js"
+import Math from "./pages/Math.js"
+import Christian from "./pages/Christian.js"
+import ECA from "./pages/ECA.js"
 
 import "../utilities.css";
 import "./App.css";
@@ -55,6 +61,12 @@ class App extends Component {
         <div className="App-container">
           <Router>
             <Home path="/" />
+            <Teaching path="/teaching" />
+            <MyStory path="/mystory" />
+            <Achieve path="/achieve" />
+            <Math path="/math" />
+            <Christian path="/christianity" />
+            <ECA path="/eca" />
             <NotFound default />
           </Router>
         </div>

@@ -26,25 +26,25 @@ class NavBar extends Component {
                   ChunHei Lam
               </Link>
             </div>
-            {/* <div className="NavBar-linkContainer u-inlineBlock">
-            <Link to="/timetable" className="NavBar-link">
-                My Story
-            </Link>
-            <Link to="/map" className="NavBar-link">
-                Resume
-            </Link>
-            <Link to="/map" className="NavBar-link">
-                Math
-            </Link>
-            <Link to="/map" className="NavBar-link">
-                Religion
-            </Link>
-            <Link to="/map" className="NavBar-link">
-                ECA
-            </Link>
-            <Link to="/map" className="NavBar-link">
-                Teaching
-            </Link> */}
+            <div className="NavBar-linkContainer u-inlineBlock">
+              <Link to="/teaching" className="NavBar-link">
+                  Teaching
+              </Link>
+              <Link to="/mystory" className="NavBar-link">
+                  My Story
+              </Link>
+              <Link to="/achieve" className="NavBar-link">
+                  Resume
+              </Link>
+              <Link to="/math" className="NavBar-link">
+                  Math
+              </Link>
+              <Link to="/christianity" className="NavBar-link">
+                  Religion
+              </Link>
+              <Link to="/eca" className="NavBar-link">
+                  ECA
+              </Link>
             {this.props.userId ? (
               <GoogleLogout
                 clientId={GOOGLE_CLIENT_ID}
@@ -62,6 +62,7 @@ class NavBar extends Component {
                 className="NavBar-link NavBar-login"
               />
             )}
+            </div>
         </nav>
       </>
     );
