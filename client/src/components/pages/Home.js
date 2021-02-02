@@ -15,26 +15,60 @@ class Home extends Component {
 
   render() {
     return (
-      <div className="home-container">
-          <div className="home-bodycontainer">
-            <h1> This is Home </h1>
-            <h2> What we provide in this skeleton</h2>
-            <ul>
-            <li>Google Auth (Skeleton.js & auth.js)</li>
-            <li>User Model (auth.js & user.js)</li>
-            </ul>
-            <h2> What you need to change</h2>
-            <ul>
-            <li>Change the font in utilities.css</li>
-            <li>Change the Frontend CLIENT_ID for Google Auth (Skeleton.js)</li>
-            <li>Change the Server CLIENT_ID for Google Auth (auth.js)</li>
-            <li>Change the Database SRV for Atlas (server.js)</li>
-            <li>Change the Database Name for MongoDB (server.js)</li>
-            <li>Add a favicon to your website at the path client/dist/favicon.ico</li>
-            <li>Update website title in client/dist/index.html</li>
-            </ul>
-          </div>
-      </div>
+      <>
+        <div className="home-banner">
+            <div className="home-banner-bodycontainer">
+              <h1 className="home-banner-title"> CHUN HEI <span className="home-banner-highlight">SAMUEL</span> LAM</h1>
+              <p className="home-banner-content"> I am a junior (third-year undergraduate student) at
+                Imperial College London majoring in mathematics, currently 
+                participating an exchange program at Massachusetts Institute
+                of Technology.  
+              </p>
+            </div>
+        </div>
+        <div className="home-block">
+          <h2> As an applied mathematician...</h2>
+          <p>
+            I mainly work in theory of statistics - I am intrigued by how different areas of mathematics
+            come together to develop theories of machine learning and bayesian computations. For instance,
+            the Monte-Carlo technique in simulating posterior distributions in a bayesian inference problem
+            is inspired by dynamics of particles in a potential well. I would like to study the statistical 
+            properties of estimators arisen from machine learning algorithms, as well as efficiency of
+            estimations of distributions.
+          </p>
+          <p>
+            In addition, I am interested in stochastic analysis - in particular the connection between
+            deterministic dynamical systems and stochastic differential equations (SDE). 
+            It is a well-known fact that diffusions can be characterised
+            by both partial differential equations (PDE) and SDE, but recent studies suggest 
+            that diffusion might also be characterised by chaotic systems. I would like to explore
+            how this connection might be used to establish better quantitative estimates of
+            the solutions of diffusions. Currently I am also drawn to the study of return maps
+            of chaotic systems.
+          </p>
+          <p>
+            My personal journey in mathematics began when I entered the HKCCCU Logos Academy (a comprehensive
+            school in Hong Kong). I had participated various enrichment programs offered by the Hong Kong University
+            of Science and Technology (HKUST) from Grade 8 to Grade 11. I then completed GCE A-Level and joined Imperial 
+            College London at the age of 16 for further studies.
+          </p>
+        </div>
+        <div className="home-block">
+          <h2> Outside of academia... </h2>
+          <p>
+            I am working on creating resources to enhance undergraudates' experiences in learning 
+            computational mathematics and statistics. These include a book on multivariate analysis with
+            demonstration in Julia language, and a repository of numerical methods. I am also a peer
+            tutor at Imperial College helping current freshmen (first-year undergraudates) to adopt
+            university life in a rapidly-changing Covid-19 situation.
+          </p>
+          <p>
+            In addition, I enjoy performing music (mainly by playing piano), building architectures in 
+            Minecraft, and exploring Christianity. Further extra-curricular engagements are included in my
+            ECA page.
+          </p>
+        </div>
+        </>
     );
   }
 }
