@@ -15,10 +15,10 @@ class Institutes extends Component {
 
   render() {
     return (
-      <>
-        <div className="institutes-imperial"> </div>
-        <div className="institutes-mit"> </div>
-      </>
+      <div className="institutes-container">
+        <a href="https://www.imperial.ac.uk/" className="institutes-imperial"> </a>
+        <a href="https://web.mit.edu/" className="institutes-mit"> </a>
+      </div>
     );
   }
 }

@@ -16,57 +16,15 @@
 
 .bottombanner-leftmain {
     display: flex;
+    justify-content: space-between;
 }
 
 .bottombanner-logo {
-    width: 70%;
-}
-
-.bottombanner-imperial {
-    display: inline-block;
-    background: url("../../img/logo/IMP_ML_K_PS.png") no-repeat;
-    background-size: cover;
-    width: calc(1504px*0.11);
-    height: calc(394px*0.11);
-    padding: 0;
-    margin: 0;
-}
-
-.bottombanner-imperial:hover {
-    display: inline-block;
-    background: url("../../img/logo/IMP_ML_1CS_4CP.png") no-repeat;
-    background-size: cover;
-    width: calc(1504px*0.11);
-    height: calc(394px*0.11);
-    padding: 0;
-    margin: 0;
-}
-
-.bottombanner-mit {
-    display: inline-block;
-    background: url("../../img/logo/MIT-logo-with-spelling-design1-large-black-gray.svg") no-repeat;
-    background-size: cover;
-    width: 184px;
-    height: 43.5px;
-    padding: 0;
-    margin: 0;
-}
-.bottombanner-mit:hover {
-    display: inline-block;
-    background: url("../../img/logo/MIT-logo-with-spelling-design1-large-red-gray.svg") no-repeat;
-    background-size: cover;
-    width: 184px;
-    height: 43.5px;
-    padding: 0;
-    margin: 0;
-}
-
-.bottombanner-imperial + .bottombanner-mit {
-    margin-left: 3vw;
+    width: 55%;
 }
 
 .bottombanner-link {
-    width:30%;
+    width: 30%;
 }
 
 .bottombanner-description {
