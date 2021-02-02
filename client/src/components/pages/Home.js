@@ -2,6 +2,7 @@ import React, { Component } from "react";
 
 import "../../utilities.css";
 import "./Home.css";
+import { Link } from "@reach/router";
 
 class Home extends Component {
   constructor(props) {
@@ -46,12 +47,14 @@ class Home extends Component {
             the solutions of diffusions. Currently I am also drawn to the study of return maps
             of chaotic systems.
           </p>
+          <Link to="/math"> Click here for more details and publications. </Link>
           <p>
             My personal journey in mathematics began when I entered the HKCCCU Logos Academy (a comprehensive
             school in Hong Kong). I had participated various enrichment programs offered by the Hong Kong University
             of Science and Technology (HKUST) from Grade 8 to Grade 11. I then completed GCE A-Level and joined Imperial 
-            College London at the age of 16 for further studies.
+            College London at the age of 16.
           </p>
+          <Link to="/mystory"> Click here to read my stories. </Link>
         </div>
         <div className="home-block">
           <h2> Outside of academia... </h2>
@@ -63,10 +66,11 @@ class Home extends Component {
             university life in a rapidly-changing Covid-19 situation.
           </p>
           <p>
-            In addition, I enjoy performing music (mainly by playing piano), building architectures in 
-            Minecraft, and exploring Christianity. Further extra-curricular engagements are included in my
-            ECA page.
+            In addition, I enjoy performing music (mainly by playing piano), building Minecraft architectures, 
+            exploring Christianity and developing webpages.
           </p>
+          <p> <Link to="/christianity"> Click here for my engagement in church. </Link> </p>
+          <p> <Link to="/eca"> Click here for other extra-curricular engagements. </Link> </p>
         </div>
         </>
     );
