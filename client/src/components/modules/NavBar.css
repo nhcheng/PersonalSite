@@ -2,11 +2,13 @@
     /* padding: var(--s) var(--m); */
     background-color: var(--primary);
     height: 8vh;
-    box-shadow: 0 8px 10px -6px grey;
+    box-shadow: 0 8px 10px -6px rgb(49, 49, 49);
     z-index: 1;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    width: 100%;
   }
   
   .NavBar-title {
