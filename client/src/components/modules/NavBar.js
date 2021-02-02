@@ -25,9 +25,6 @@ class NavBar extends Component {
               </Link>
             </div>
             <div className="NavBar-linkContainer u-inlineBlock">
-              <Link to="/teaching" className="NavBar-link">
-                  Teaching
-              </Link>
               <Link to="/mystory" className="NavBar-link">
                   My Story
               </Link>
@@ -42,6 +39,9 @@ class NavBar extends Component {
               </Link>
               <Link to="/eca" className="NavBar-link">
                   ECA
+              </Link>
+              <Link to="/teaching" className="NavBar-link">
+                  Teaching
               </Link>
             {/* <MyGoogle handleLogin={this.props.handleLogin}
             handleLogout={this.props.handleLogout}
