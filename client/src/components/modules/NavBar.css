@@ -20,7 +20,7 @@
   .NavBar-linkContainer {
     /* margin-left: var(--l); */
     justify-self: end;
-    margin-right: var(--s);
+    margin-right: var(--l);
   }
   
   .NavBar-link,

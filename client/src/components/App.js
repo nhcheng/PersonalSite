@@ -29,35 +29,33 @@ class App extends Component {
   }
 
   componentDidMount() {
-    get("/api/whoami").then((user) => {
-      if (user._id) {
-        // they are registed in the database, and currently logged in.
-        this.setState({ userId: user._id });
-      }
-    });
+    // get("/api/whoami").then((user) => {
+    //   if (user._id) {
+    //     // they are registed in the database, and currently logged in.
+    //     this.setState({ userId: user._id });
+    //   }
+    // });
   }
 
-  handleLogin = (res) => {
-    console.log(`Logged in as ${res.profileObj.name}`);
-    const userToken = res.tokenObj.id_token;
-    post("/api/login", { token: userToken }).then((user) => {
-      this.setState({ userId: user._id });
-    });
-  };
+  // handleLogin = (res) => {
+  //   console.log(`Logged in as ${res.profileObj.name}`);
+  //   const userToken = res.tokenObj.id_token;
+  //   post("/api/login", { token: userToken }).then((user) => {
+  //     this.setState({ userId: user._id });
+  //   });
+  // };
 
-  handleLogout = () => {
-    this.setState({ userId: undefined });
-    post("/api/logout");
-  };
+  // handleLogout = () => {
+  //   this.setState({ userId: undefined });
+  //   post("/api/logout");
+  // };
 
   render() {
     return (
       <>
-        <NavBar
-              handleLogin={this.handleLogin}
+        <NavBar/> {/* handleLogin={this.handleLogin}
               handleLogout={this.handleLogout}
-              userId={this.state.userId}
-            />
+              userId={this.state.userId} */}
         <div className="App-container">
           <Router>
             <Home path="/" />

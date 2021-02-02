@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "@reach/router";
-import MyGoogle from "./MyGoogle.js";
+// import MyGoogle from "./MyGoogle.js";
 
 import "../../utilities.css";
 import "./NavBar.css";
@@ -43,9 +43,9 @@ class NavBar extends Component {
               <Link to="/eca" className="NavBar-link">
                   ECA
               </Link>
-            <MyGoogle handleLogin={this.props.handleLogin}
+            {/* <MyGoogle handleLogin={this.props.handleLogin}
             handleLogout={this.props.handleLogout}
-            userId={this.props.userId} />
+            userId={this.props.userId} /> */}
             </div>
         </nav>
       </>
