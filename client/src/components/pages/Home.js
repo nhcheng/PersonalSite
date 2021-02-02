@@ -26,7 +26,7 @@ class Home extends Component {
           content="I am a junior (third-year undergraduate student) at
           Imperial College London majoring in mathematics, currently 
           participating an exchange program at Massachusetts Institute
-          of Technology."
+          of Technology (MIT)."
           des="Taken in 2018 at the main entrance of Imperial College London.
           Credit to Daniel Lo."
         />

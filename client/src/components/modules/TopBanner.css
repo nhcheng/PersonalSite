@@ -16,7 +16,7 @@
     /* width: 80%; */
     /* display: flex;
     flex-direction: column; */
-    padding: 0% 55% 0% 10%;
+    padding: 0% 40% 0% 10%;
     color: white;
 }
 
@@ -26,7 +26,23 @@
     color: #FFFFFF;
     font-size: 28px;
     font-weight:300;
+    animation: aboutTitleAnimation 1s cubic-bezier(0.215, 0.610, 0.355, 1.000);
 }
+
+@keyframes aboutTitleAnimation {
+    0% {
+      letter-spacing: 0.7em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      letter-spacing: normal;
+      opacity: 1;
+    }
+  }
+  
 /* 
 .topbanner-highlight {
     color: var(--blue);
@@ -46,7 +62,7 @@
     position: relative;
     top: 30px;
     text-align: right;
-    padding-left: 20%;
+    padding-left: 18%;
     font-size: 14px;
     font-weight: 250;
     color: var(--darkgrey);
