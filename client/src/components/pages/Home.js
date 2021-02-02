@@ -3,6 +3,8 @@ import React, { Component } from "react";
 import "../../utilities.css";
 import "./Home.css";
 import { Link } from "@reach/router";
+import TopBanner from "../modules/TopBanner.js";
+import HomeBackground from "../../img/PersonalBanner(2).png";
 
 class Home extends Component {
   constructor(props) {
@@ -17,16 +19,15 @@ class Home extends Component {
   render() {
     return (
       <>
-        <div className="home-banner">
-            <div className="home-banner-bodycontainer">
-              <h1 className="home-banner-title"> CHUN HEI <span className="home-banner-highlight">SAMUEL</span> LAM</h1>
-              <p className="home-banner-content"> I am a junior (third-year undergraduate student) at
-                Imperial College London majoring in mathematics, currently 
-                participating an exchange program at Massachusetts Institute
-                of Technology.  
-              </p>
-            </div>
-        </div>
+        <TopBanner 
+          background={HomeBackground}
+          // title="CHUN HEI SAMUEL LAM"
+          title={(<> CHUN HEI <span className="home-banner-highlight"> SAMUEL </span> LAM </>)}
+          content="I am a junior (third-year undergraduate student) at
+          Imperial College London majoring in mathematics, currently 
+          participating an exchange program at Massachusetts Institute
+          of Technology."
+        />
         <div className="home-block">
           <h2> As an applied mathematician...</h2>
           <p>
