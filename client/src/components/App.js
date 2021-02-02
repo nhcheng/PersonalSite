@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Router } from "@reach/router";
 import NavBar from "./modules/NavBar.js";
+import BottomBanner from "./modules/BottomBanner.js";
 
 import NotFound from "./pages/NotFound.js";
 import Home from "./pages/Home.js";
@@ -10,6 +11,7 @@ import Achieve from "./pages/Achieve.js"
 import Math from "./pages/Math.js"
 import Christian from "./pages/Christian.js"
 import ECA from "./pages/ECA.js"
+import Privacy from "./pages/Privacy.js"
 
 import "../utilities.css";
 import "./App.css";
@@ -65,9 +67,11 @@ class App extends Component {
             <Math path="/math" />
             <Christian path="/christianity" />
             <ECA path="/eca" />
+            <Privacy path="/privacy" />
             <NotFound default />
           </Router>
         </div>
+        <BottomBanner />
       </>
     );
   }

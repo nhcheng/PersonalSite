@@ -1,0 +1,82 @@
+.bottombanner-container {
+    position: relative;
+    top: 4vh;
+    /* width: 100%; */
+    padding: 2vw 10%;
+    display: flex;
+    background-color: var(--medgrey);
+    font-size: 16px;
+}
+
+.bottombanner-left {
+    /* height: 50px; */
+    width: 70%;
+}
+
+.bottombanner-leftmain {
+    display: flex;
+}
+
+.bottombanner-logo {
+    width: 60%;
+}
+
+.bottombanner-imperial {
+    display: inline-block;
+    background: url("../../img/logo/IMP_ML_K_PS.png") no-repeat;
+    background-size: cover;
+    width: calc(1504px*0.11);
+    height: calc(394px*0.11);
+    padding: 0;
+    margin: 0;
+}
+
+.bottombanner-imperial:hover {
+    display: inline-block;
+    background: url("../../img/logo/IMP_ML_1CS_4CP.png") no-repeat;
+    background-size: cover;
+    width: calc(1504px*0.11);
+    height: calc(394px*0.11);
+    padding: 0;
+    margin: 0;
+}
+
+.bottombanner-mit {
+    display: inline-block;
+    background: url("../../img/logo/MIT-logo-with-spelling-design1-large-black-gray.svg") no-repeat;
+    background-size: cover;
+    width: 184px;
+    height: 43.5px;
+    padding: 0;
+    margin: 0;
+}
+.bottombanner-mit:hover {
+    display: inline-block;
+    background: url("../../img/logo/MIT-logo-with-spelling-design1-large-red-gray.svg") no-repeat;
+    background-size: cover;
+    width: 184px;
+    height: 43.5px;
+    padding: 0;
+    margin: 0;
+}
+
+.bottombanner-imperial + .bottombanner-mit {
+    margin-left: 3vw;
+}
+
+.bottombanner-link {
+    width:30%;
+}
+
+.bottombanner-description {
+    position: relative;
+    top: 2vh;
+    font-size: 14px;
+    color: gray;
+    padding-right: 3vw;
+}
+
+.bottombanner-right {
+    font-size: 14px;
+    color: gray;
+}
