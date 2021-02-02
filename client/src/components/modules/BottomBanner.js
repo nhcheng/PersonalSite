@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "@reach/router";
-// import MyGoogle from "./MyGoogle.js";
+import Institutes from "./Institutes.js";
 
 import "../../utilities.css";
 import "./BottomBanner.css";
@@ -21,8 +21,9 @@ class BottomBanner extends Component {
         <div className="bottombanner-left"> 
           <div className="bottombanner-leftmain">
             <div className="bottombanner-logo">
-                <div className="bottombanner-imperial"> </div>
-                <div className="bottombanner-mit"> </div>
+                {/* <div className="bottombanner-imperial"> </div>
+                <div className="bottombanner-mit"> </div> */}
+                <Institutes />
             </div>
             <div className="bottombanner-link">
                 <Link to="/privacy">Privacy</Link> | <a href="https://accessibility.mit.edu/">Accessibility</a>
