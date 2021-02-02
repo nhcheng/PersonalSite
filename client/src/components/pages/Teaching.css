@@ -1,3 +1,9 @@
+.teaching-highlight {
+    color: var(--blue);
+    font-size: 48px;
+    font-weight:300;
+}
+
 .teaching-container {
     height: 91.7vh;
     width: 100%;

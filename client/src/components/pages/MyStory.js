@@ -1,7 +1,9 @@
 import React, { Component } from "react";
 
 import "../../utilities.css";
+import TopBanner from "../modules/TopBanner.js"
 import "./Mystory.css";
+import myStoryBackground from "../../img/myStoryBanner.png";
 
 class Mystory extends Component {
   constructor(props) {
@@ -15,6 +17,15 @@ class Mystory extends Component {
 
   render() {
     return (
+      <>
+      <TopBanner 
+          background={myStoryBackground}
+          title={<>MY <span className="mystory-highlight"> STORY </span></>}
+          content="Explore my exploration of mathematics and 
+          how my belief in God shape my life."
+          des={(<> Taken in 2020 right before I return to UK at the
+          <i> "Instagram Pier" </i> in Hong Kong. Credit to Vincent Chung. </>)}
+        />
       <div className="mystory-container">
           <div className="mystory-bodycontainer">
             <h1> This is Mystory </h1>
@@ -35,6 +46,7 @@ class Mystory extends Component {
             </ul>
           </div>
       </div>
+      </>
     );
   }
 }

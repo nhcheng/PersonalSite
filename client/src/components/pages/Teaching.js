@@ -2,6 +2,8 @@ import React, { Component } from "react";
 
 import "../../utilities.css";
 import "./Teaching.css";
+import TeachingBackground from "../../img/TeachingBanner.png";
+import TopBanner from "../modules/TopBanner.js";
 
 class Teaching extends Component {
   constructor(props) {
@@ -15,6 +17,15 @@ class Teaching extends Component {
 
   render() {
     return (
+    <>
+      <TopBanner 
+          background={TeachingBackground}
+          title={<span className="teaching-highlight"> TEACHING </span>}
+          content={<> I am currently a peer tutor at Imperial College London.
+          You can read my teaching resources here. </>}
+          des="Clore Lecture Theatre -- the main lecture theatre 
+          for Department of Mathematics at Imperial College London."
+        />  
       <div className="teaching-container">
           <div className="teaching-bodycontainer">
             <h1> This is Teaching </h1>
@@ -35,6 +46,7 @@ class Teaching extends Component {
             </ul>
           </div>
       </div>
+    </>  
     );
   }
 }

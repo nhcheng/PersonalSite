@@ -1,3 +1,9 @@
+.Christian-highlight {
+    color: var(--red);
+    font-size: 48px;
+    font-weight:300;
+}
+
 .Christian-container {
     height: 91.7vh;
     width: 100%;

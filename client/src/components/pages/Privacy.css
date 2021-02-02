@@ -1,3 +1,9 @@
+.privacy-highlight {
+    color: var(--blue);
+    font-size: 48px;
+    font-weight:300;
+}
+
 .privacy-container {
     height: 91.7vh;
     width: 100%;

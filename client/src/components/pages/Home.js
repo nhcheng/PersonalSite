@@ -27,6 +27,8 @@ class Home extends Component {
           Imperial College London majoring in mathematics, currently 
           participating an exchange program at Massachusetts Institute
           of Technology."
+          des="Taken in 2018 at the main entrance of Imperial College London.
+          Credit to Daniel Lo."
         />
         <div className="home-block">
           <h2> As an applied mathematician...</h2>

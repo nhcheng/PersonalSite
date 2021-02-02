@@ -29,3 +29,9 @@
     margin: 5px;
     color: #FFFFFF;
 }
+
+.math-banner-highlight {
+    color: var(--blue);
+    font-size: 38px;
+    font-weight:300;
+}

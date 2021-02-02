@@ -11,6 +11,7 @@ import "./TopBanner.css";
  * @param background
  * @param title
  * @param content
+ * @param des describing the background image
  */
 
 class TopBanner extends Component {
@@ -29,8 +30,8 @@ class TopBanner extends Component {
             backgroundImage: `url("${this.props.background}")`}}>
             <div className="topbanner-bodycontainer">
                 <h1 className="topbanner-title"> {this.props.title} </h1>
-                <p className="top-content"> {this.props.content}
-                </p>
+                <p className="topbanner-content"> {this.props.content} </p>
+                <p className="topbanner-des"> &#9654; {this.props.des} </p>
             </div>
         </div>
     );

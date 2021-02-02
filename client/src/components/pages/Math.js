@@ -2,6 +2,8 @@ import React, { Component } from "react";
 
 import "../../utilities.css";
 import "./Math.css";
+import TopBanner from "../modules/TopBanner.js";
+import mathBackground from "../../img/MathBanner.png";
 
 class Math extends Component {
   constructor(props) {
@@ -15,6 +17,21 @@ class Math extends Component {
 
   render() {
     return (
+      <>
+      <TopBanner 
+          background={mathBackground}
+          title={<> To the wonder of <span 
+          className="math-banner-highlight"> Statistical 
+          Learning </span> and <span
+          className="math-banner-highlight"> Stochastic Analysis </span> </>}
+          content="I study how the relation between dynamical systems and SDE can be
+          utilised to establish quantitative results. I also study efficiency of  
+          Bayesian Inferences and statistical properties of estimators arisen in
+          machine learning algorithms."
+          des={<> Samples from brownian bridge. The <i>Empirical Central Limit 
+            Theorem</i> reveals that empirical process converges weakly to brownian 
+            bridge as size of sample increases. Taken from 18.675 final paper with Shawn Im. </>}
+        />
       <div className="math-container">
           <div className="math-bodycontainer">
             <h1> This is Home </h1>
@@ -35,6 +52,7 @@ class Math extends Component {
             </ul>
           </div>
       </div>
+      </>
     );
   }
 }

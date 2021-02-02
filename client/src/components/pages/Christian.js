@@ -2,6 +2,8 @@ import React, { Component } from "react";
 
 import "../../utilities.css";
 import "./Christian.css";
+import TopBanner from "../modules/TopBanner.js";
+import ChristianBackground from  "../../img/ReligionBanner.png";
 
 class Christian extends Component {
   constructor(props) {
@@ -15,6 +17,16 @@ class Christian extends Component {
 
   render() {
     return (
+      <>
+      <TopBanner 
+          background={ChristianBackground}
+          title={(<> THE NEW <span className="Christian-highlight"> LIFE </span></>)}
+          content="I am a Christian and I enjoy exploring how our belief in God's
+          salvation changes lives and creates impact in society. I have engages in various churches
+          and Christian Unions."
+          des={<> Taken in 2018 April when I baptised at my home church - <i> Oi 
+            Kwan Road Baptist Church</i>. Credit to the members of choir.</>}
+        />
       <div className="Christian-container">
           <div className="Christian-bodycontainer">
             <h1> This is Christian </h1>
@@ -35,6 +47,7 @@ class Christian extends Component {
             </ul>
           </div>
       </div>
+      </>
     );
   }
 }

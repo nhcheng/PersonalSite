@@ -16,7 +16,7 @@
     /* width: 80%; */
     /* display: flex;
     flex-direction: column; */
-    padding: 0% 50% 0% 10%;
+    padding: 0% 55% 0% 10%;
     color: white;
 }
 
@@ -34,10 +34,20 @@
     font-weight:300;
 } */
 
-.topbanner-banner-content {
+.topbanner-content {
     position: relative;
     top: 10px;
     font-size: 18px;
     color: #FFFFFF;
     font-weight:250;
+}
+
+.topbanner-des {
+    position: relative;
+    top: 30px;
+    text-align: right;
+    padding-left: 20%;
+    font-size: 14px;
+    font-weight: 250;
+    color: var(--darkgrey);
 }

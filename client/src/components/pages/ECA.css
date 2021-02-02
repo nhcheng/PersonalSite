@@ -1,3 +1,9 @@
+.ECA-highlight {
+    color: var(--blue);
+    font-size: 48px;
+    font-weight:300;
+}
+
 .ECA-container {
     height: 91.7vh;
     width: 100%;

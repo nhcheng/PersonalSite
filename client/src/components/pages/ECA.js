@@ -2,6 +2,8 @@ import React, { Component } from "react";
 
 import "../../utilities.css";
 import "./ECA.css";
+import TopBanner from "../modules/TopBanner.js";
+import ECABackground from "../../img/ECABanner.png"
 
 class ECA extends Component {
   constructor(props) {
@@ -15,6 +17,17 @@ class ECA extends Component {
 
   render() {
     return (
+      <>
+      <TopBanner 
+          background={ECABackground}
+          // title="CHUN HEI SAMUEL LAM"
+          title={<> <span className="ECA-highlight"> Extra-curricular </span> Engagements </>}
+          content="Here is a summary of extra-curricular activites I have 
+          participated for the last few years"
+          des={<> Taken in 2018 during a rehearsal of <i> Imperial College 
+            DramSoc</i> production of drama <i> And Then There Were None</i>.
+            I was a Deputy Stage Manager in that production. Credit to Daniel Lo.</>}
+        />
       <div className="ECA-container">
           <div className="ECA-bodycontainer">
             <h1> This is ECA </h1>
@@ -35,6 +48,7 @@ class ECA extends Component {
             </ul>
           </div>
       </div>
+      </>
     );
   }
 }
