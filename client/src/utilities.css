@@ -62,6 +62,14 @@ a:hover {
   color: var(--primary);
 }
 
+.u-nomargin {
+  margin: 0;
+}
+
+.u-nopadding {
+  padding: 0;
+}
+
 .u-block{
   position: relative;
   width: 80%;

@@ -21,30 +21,54 @@ class Teaching extends Component {
       <TopBanner 
           background={TeachingBackground}
           title={<span className="teaching-highlight"> TEACHING </span>}
-          content={<> I am currently a peer tutor at Imperial College London.
-          You can read my teaching resources here. </>}
+          content={<> This page contains all the materials for my teaching 
+          activities. </>}
           des="Clore Lecture Theatre -- the main lecture theatre 
           for Department of Mathematics at Imperial College London."
         />  
-      <div className="teaching-container">
-          <div className="teaching-bodycontainer">
-            <h1> This is Teaching </h1>
-            <h2> What we provide in this skeleton</h2>
-            <ul>
-            <li>Google Auth (Skeleton.js & auth.js)</li>
-            <li>User Model (auth.js & user.js)</li>
+      <div className="u-block">
+        <h3> I will host a drop in session on 10/12 in Microsoft Teams. Come and join us!
+        </h3>
+      </div>
+      <div className="u-block">
+        <h2> Current Teaching </h2>
+      </div>
+      <div className="u-block">
+            <h3 className="u-nomargin"> Imperial: Spring Peer Tutorial (Group 21) </h3>
+            <p> <b>Time:</b> Monday 10:30-11:30 (GMT), <b>Venue:</b> Virtual (Microsoft Teams) </p>
+            <p> <i>Student discusses special topics related to lecture materials. </i> </p>
+            <p className="u-nomargin"> Tentative Schedule: (Participants are more than welcomed to
+            suggest their topics.) </p>
+            <ul className="u-nomargin">
+            <li> (22/01)* Linear Algebra: Introduction to linear algebra using Numpy. </li>
+            <li> (25/01) Linear Algebra: QR Factorisation I </li>
+            <li> (01/02) Linear Algebra: QR Factorisation II </li>
+            <li> (08/02) Analysis: Monotone Functions </li>
+            <li> (15/02)* Midterm Preparation </li>
+            <li> (22/02) Statistics: Least Square Estimation </li>
+            <li> (01/03) Analysis: Fixed Point Theorems </li>
+            <li> (08/03) Calculus: Bifurcation in practice </li>
+            <li> (15/03) Group Theory: Special Groups </li>
+            <li> (22/03) Sendoff </li>
             </ul>
-            <h2> What you need to change</h2>
-            <ul>
-            <li>Change the font in utilities.css</li>
-            <li>Change the Frontend CLIENT_ID for Google Auth (Skeleton.js)</li>
-            <li>Change the Server CLIENT_ID for Google Auth (auth.js)</li>
-            <li>Change the Database SRV for Atlas (server.js)</li>
-            <li>Change the Database Name for MongoDB (server.js)</li>
-            <li>Add a favicon to your website at the path client/dist/favicon.ico</li>
-            <li>Update website title in client/dist/index.html</li>
+      </div>
+      <div className="u-block">
+        <h2> Past Teaching </h2>
+      </div>
+      <div className="u-block">
+            <h3 className="u-nomargin"> Imperial: Fall Peer Tutorial (Group 47) </h3>
+            <p> <b>Time:</b> Thursday 11:00-12:00 (GMT), <b>Venue:</b> Virtual (Microsoft Teams) </p>
+            <p> <i>Student discusses special topics related to lecture materials. </i> </p>
+            <p className="u-nomargin"> Schedule: </p>
+            <ul className="u-nomargin">
+            <li> (05/11) Analysis: Countability </li>
+            <li> (12/01) Analysis: Supremum and Infinmum </li>
+            <li> (19/11) Midterm Preparation </li>
+            <li> (26/11) Linear Algebra: Introduction to linear algebra using Numpy. </li>
+            <li> (03/12) Calculus: Fourier Series </li>
+            <li> (10/12) Probability: Transformation of Variables </li>
+            <li> (16/12)* Sendoff </li>
             </ul>
-          </div>
       </div>
     </>  
     );
