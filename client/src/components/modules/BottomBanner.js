@@ -77,9 +77,9 @@ class BottomBanner extends Component {
                 detail={(<> <a href="https://www.linkedin.com/in/ch-sammuel-6b446a190/">CH-Sammuel Lam</a> <span> (Inactive) </span> </>)}/>
               <ContactItem src={emailIcon} 
               detail={<>
-                <div> <a href="mailto:chun.lam18@imperial.edu"> chun.lam18@imperial.edu </a> (Imperial) </div>
-                <div> <a href="mailto:chunhei@mit.edu"> chunhei@mit.edu </a> (MIT) </div>
-                <div> <a href="mailto:sammuelchlam@gmail.com"> sammuelchlam@gmail.com </a> (Others) </div>
+                <div> <a href="mailto:chun.lam18@imperial.edu">chun.lam18@imperial.edu</a> (Imperial) </div>
+                <div> <a href="mailto:chunhei@mit.edu">chunhei@mit.edu</a> (MIT) </div>
+                <div> <a href="mailto:sammuelchlam@gmail.com">sammuelchlam@gmail.com</a> (Others) </div>
               </>}/>
             </div>
         </div>

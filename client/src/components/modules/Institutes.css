@@ -1,6 +1,6 @@
 .institutes-container {
     display: flex;
-    justify-content: space-between;
+    width: 391px;
 }
 
 .institutes-imperial {
@@ -30,7 +30,7 @@
     width: 184px;
     height: 43.5px;
     padding: 0;
-    margin: 0;
+    margin: 0 0 0 40px;
 }
 .institutes-mit:hover {
     display: block;
@@ -39,7 +39,7 @@
     width: 184px;
     height: 43.5px;
     padding: 0;
-    margin: 0;
+    margin: 0 0 0 40px;
 }
 /* 
 .institutes-imperial + .institutes-mit {
