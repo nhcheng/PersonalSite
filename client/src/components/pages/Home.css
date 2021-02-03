@@ -1,55 +1,43 @@
-/* banner */
-
-.home-banner {
-    height: 75vh;
-    width: 100%;
-    background: url("../../img/PersonalBanner(2).png");
-    background-repeat: no-repeat; 
-    background-position: 100% 0;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.home-banner-bodycontainer {
-    position: relative;
-    align-content: center;
-    /* width: 80%; */
-    /* display: flex;
-    flex-direction: column; */
-    padding: 0% 50% 0% 10%;
-    color: white;
-}
-
-.home-banner-title {
-    padding: 5px 0px;
-    margin: 0px;
-    color: #FFFFFF;
-    font-size: 28px;
-    font-weight:300;
-}
-
 .home-banner-highlight {
     color: var(--blue);
     font-size: 48px;
     font-weight:300;
 }
 
-.home-banner-content {
-    position: relative;
-    top: 10px;
-    font-size: 18px;
-    color: #FFFFFF;
-    font-weight:250;
-}
-
 /* block */
 .home-block {
     position: relative;
     width: 80%;
-    /* display: flex; */
-    padding: 5vh 10% 0% 10%;
+    padding: 0 10% 0% 10%;
     /* align-items: center;
     justify-content: center; */
+}
+
+.home-flexbox {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3vw;
+}
+
+.home-flexleft{
+    align-items: center;
+}
+
+.home-flexleft h2 {
+    margin-top: 0;
+}
+
+.home-flexright{
+    margin-left: 5vw;
+    align-items: center;
+    width: 400px;
+}
+
+.home-flexright img {
+    width: 400px;
+}
+
+.home-flexright p {
+    color: gray;
+    font-size: 14px;
 }

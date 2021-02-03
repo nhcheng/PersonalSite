@@ -36,6 +36,21 @@
 }
 
 .bottombanner-right {
-    font-size: 14px;
+    font-size: 15px;
     color: gray;
+}
+
+.contact-item {
+    display: flex;
+}
+
+.contact-itemleft {
+    width: 15px;
+    margin-right: 6px;
+    background-size: cover;
+}
+
+.contact-itemleft img {
+    opacity: 90%;
+    height: 11px;
 }
