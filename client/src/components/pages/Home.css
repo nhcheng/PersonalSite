@@ -5,39 +5,14 @@
 }
 
 /* block */
-.home-block {
-    position: relative;
-    width: 80%;
-    padding: 0 10% 0% 10%;
-    /* align-items: center;
-    justify-content: center; */
-}
-
-.home-flexbox {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 3vw;
-}
 
 .home-flexleft{
     align-items: center;
-}
-
-.home-flexleft h2 {
-    margin-top: 0;
+    width: 70%;
 }
 
 .home-flexright{
-    margin-left: 5vw;
+    margin-left: 10%;
     align-items: center;
-    width: 400px;
-}
-
-.home-flexright img {
-    width: 400px;
-}
-
-.home-flexright p {
-    color: gray;
-    font-size: 14px;
+    /* width: 20%; */
 }

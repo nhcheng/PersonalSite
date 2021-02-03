@@ -43,10 +43,30 @@ body {
 
 h1,h2,h3,h4 {
   font-family: "Open Sans", sans-serif;
+  margin-top: 0;
+}
+
+p {
+  margin-top: 0;
 }
 
 form {
   flex-grow: 1;
+}
+
+a {
+  color: gray;
+}
+
+a:hover {
+  color: var(--primary);
+}
+
+.u-block{
+  position: relative;
+  width: 80%;
+  padding: 0 10% 0% 10%;
+  margin-top: 24px;
 }
 
 .u-flex {
@@ -60,6 +80,10 @@ form {
 
 .u-flex-justifyCenter {
   justify-content: center;
+}
+
+.u-flex-justifySpace {
+  justify-content: space-between;
 }
 
 .u-flex-alignCenter {

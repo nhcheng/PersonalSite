@@ -6,6 +6,7 @@ import { Link } from "@reach/router";
 import TopBanner from "../modules/TopBanner.js";
 import HomeBackground from "../../img/PersonalBanner(2).png";
 import randomWalk from "../../img/homerandom.png";
+import Image from "../modules/Image.js";
 
 class Home extends Component {
   constructor(props) {
@@ -31,8 +32,8 @@ class Home extends Component {
           des="Taken in 2018 at the main entrance of Imperial College London.
           Credit to Daniel Lo."
         />
-        <div className="home-block">
-        <div className="home-flexbox">
+        <div className="u-block">
+        <div className="u-flex">
           <div className="home-flexleft">
             <h2> As an applied mathematician...</h2>
             <p style={{margin: 0}}>
@@ -50,13 +51,13 @@ class Home extends Component {
             </ul>
           </div>
           <div className="home-flexright">
-            <img src={randomWalk}/>
-            <p> &#9654; A trajectory simulated by a chaotic process, which
-              resembles random walk. </p>
+            <Image src={randomWalk} 
+            des="A trajectory simulated by a chaotic process, which
+            resembles random walk." />
           </div>
         </div>
         </div>
-        <div className="home-block">
+        <div className="u-block">
           <p>
             In addition to my research, I am creating resources to enhance undergraduates' experiences
             in learning computational mathematics and statistics. These include a book on multivariate analysis with
@@ -64,16 +65,16 @@ class Home extends Component {
             tutor at Imperial College helping current freshmen (first-year undergraudates) to adopt
             university life in a rapidly-changing Covid-19 situation.
             </p>
-          <Link to="/math"> Click here for more details and publications. </Link>
+          <p> <Link to="/math"> Click here for more details and publications. </Link> </p>
           <p>
             My personal journey in mathematics began when I entered the HKCCCU Logos Academy (a comprehensive
             school in Hong Kong). I had participated various enrichment programs offered by the Hong Kong University
             of Science and Technology (HKUST) from Grade 8 to Grade 11. I then completed GCE A-Level and joined Imperial 
             College London at the age of 16.
           </p>
-          <Link to="/mystory"> Click here to read my stories. </Link>
+          <p> <Link to="/mystory"> Click here to read my stories. </Link> </p>
           </div>
-        <div className="home-block">
+        <div className="u-block">
           <h2> Outside academia... </h2>
           <p>
             In addition, I enjoy performing music (mainly by playing piano), building Minecraft architectures, 
