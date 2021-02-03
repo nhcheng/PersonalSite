@@ -23,25 +23,25 @@ class NavBar extends Component {
               <Link to="/" className="NavBar-link">
                   Home
               </Link>
-              <Link to="/teaching" className="NavBar-link">
-                  Teaching
-              </Link>
-            </div>
-            <div className="NavBar-linkContainer u-inlineBlock">
               <Link to="/mystory" className="NavBar-link">
                   My Story
               </Link>
-              <Link to="/achieve" className="NavBar-link">
-                  Resume
+              <Link to="/teaching" className="NavBar-link">
+                  Teaching
               </Link>
               <Link to="/math" className="NavBar-link">
-                  Math
+                  Research
               </Link>
               <Link to="/christianity" className="NavBar-link">
                   Religion
               </Link>
               <Link to="/eca" className="NavBar-link">
                   ECA
+              </Link>
+            </div>
+            <div className="NavBar-linkContainer u-inlineBlock">
+              <Link to="/achieve" className="NavBar-link">
+                  Resume
               </Link>
             {/* <MyGoogle handleLogin={this.props.handleLogin}
             handleLogout={this.props.handleLogout}

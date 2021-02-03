@@ -22,9 +22,7 @@ class Achieve extends Component {
           background={ResumeBackground}
           title={<> <span className="achieve-highlight">RESUME</span> and Achievements </>}
           content={<> This page contains my general background and skills.
-          You can also read my full Curriculum Vitae here. Please note the
-          version here may differ from the version used to complete
-          summer school applications. </>}
+          You can also read my full Curriculum Vitae here.</>}
           des="Taken in 2018 during final presentation of Year 1 Research Project.
           The project aims to predict tumor growth by bayesian computations. A high
           score of 98% is achieved in this project."
