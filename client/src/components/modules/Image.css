@@ -2,7 +2,7 @@
     width: 100%;
 }
 
-.image + p {
+.image-des {
     color: gray;
     font-size: 14px;
 }
