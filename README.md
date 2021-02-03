@@ -6,29 +6,38 @@ Acknowledgement to weblab staff at MIT which has provided skeleton codes and mak
 
 
 ## Things Undone (I will probably update this by removing finished tasks):
-0. Setup github and README.md.
-- Change the font in utilities.css
-- Change the color theme in utilities.css
 
-1. Setup blank pages
-- Page: Homepage
-- Page: My Story
-- Page: Curriculum Vitae (Education/Achievements/Skills)
-- Page: Math
-- Page: Religion
-- Page: ECA
-- Page: Teaching
-- Page: GDPR
-- Component: NavBar
-- Component: Contact Info
-- Suitable Padding.
-- Removing login stuff.
+### Continue updating README.md.
 
-2. Homepage
-- My profile pic.
-- My name
-- "I am a junior (third year student)"
-- My short research interests.
-- Outside academia
+### Stage 1: Setting Up Pages
+- Creating Writing Page
+- Creating Contact Page with contact form
+- Banner for 404 Page.
 
-3. Other pages
+### Stage 2: Filling in Important Pages
+
+#### Home
+- Image container and flexbox
+
+#### Teaching
+- Include tutorial materials and schedules
+
+#### Research
+- Include short research descriptions
+
+#### Religion
+- Include engagement in churches, CU and writings.
+
+#### ECA
+- Include engagement for last three years (Voluntary Work, ICPASS, DramSoc, Trainspotting, Minecraft, Cycling Journal, Weblab)
+
+#### Writing
+- Migrate writing page from old site to current site.
+
+#### Resume
+- Upload my pdf resume.
+- Education
+- Skills
+
+#### Contact
+- Contact Form
