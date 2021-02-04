@@ -16,12 +16,6 @@ Acknowledgement to weblab staff at MIT which has provided skeleton codes and mak
 
 ### Stage 2: Filling in Important Pages
 
-#### Home
-- Image container and flexbox
-
-#### Teaching
-- Include tutorial materials and schedules
-
 #### Research
 - Include short research descriptions
 
@@ -41,3 +35,9 @@ Acknowledgement to weblab staff at MIT which has provided skeleton codes and mak
 
 #### Contact
 - Contact Form
+
+
+### Stage 3: Further Styling
+
+#### Teaching
+- Collapse/Expand Content
