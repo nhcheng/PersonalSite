@@ -4,6 +4,9 @@ import "../../utilities.css";
 import "./Teaching.css";
 import TeachingBackground from "../../img/TeachingBanner.png";
 import TopBanner from "../modules/TopBanner.js";
+import MyAlert from "../modules/MyAlert.js"
+import FallInfo from '../../data/Teaching/FallInfo.pdf';
+import SpringInfo from '../../data/Teaching/SpringInfo.pdf';
 
 class Teaching extends Component {
   constructor(props) {
@@ -27,15 +30,23 @@ class Teaching extends Component {
           for Department of Mathematics at Imperial College London."
         />  
       <div className="u-block">
-        <h3> I will host a drop in session on 10/12 in Microsoft Teams. Come and join us!
-        </h3>
+        <MyAlert 
+          alerttype="green"
+          content="I will host a drop in session on 10/12 in Microsoft Teams. 
+          Come and join us!"
+        />
+        <MyAlert 
+          alerttype="red"
+          content="The 15/02 session for spring term tutorial will need to be rescheduled
+          due to conflict with midterm tests."
+        />
       </div>
       <div className="u-block">
         <h2> Current Teaching </h2>
       </div>
       <div className="u-block">
             <h3 className="u-nomargin"> Imperial: Spring Peer Tutorial (Group 21) </h3>
-            <p> <b>Time:</b> Monday 10:30-11:30 (GMT), <b>Venue:</b> Virtual (Microsoft Teams) </p>
+            <p> <b>Term</b> 2021 Spring | <b>Time:</b> Monday 10:30-11:30 (GMT) | <b>Venue:</b> Virtual (Microsoft Teams) | <b>Role:</b> Tutor | <b> Syllabus:</b> <a href={SpringInfo} target="_blank">here</a>. </p>
             <p> <i>Student discusses special topics related to lecture materials. </i> </p>
             <p className="u-nomargin"> Tentative Schedule: (Participants are more than welcomed to
             suggest their topics.) </p>
@@ -57,7 +68,7 @@ class Teaching extends Component {
       </div>
       <div className="u-block">
             <h3 className="u-nomargin"> Imperial: Fall Peer Tutorial (Group 47) </h3>
-            <p> <b>Time:</b> Thursday 11:00-12:00 (GMT), <b>Venue:</b> Virtual (Microsoft Teams) </p>
+            <p> <b>Term</b> 2020 Fall | <b>Time:</b> Thursday 11:00-12:00 (GMT) | <b>Venue:</b> Virtual (Microsoft Teams) | <b>Role:</b> Tutor | <b> Syllabus:</b> <a href={FallInfo} target="_blank">here</a>.  </p>
             <p> <i>Student discusses special topics related to lecture materials. </i> </p>
             <p className="u-nomargin"> Schedule: </p>
             <ul className="u-nomargin">
