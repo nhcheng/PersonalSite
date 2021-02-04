@@ -43,6 +43,9 @@ class NavBar extends Component {
               <Link to="/achieve" className="NavBar-link">
                   Resume
               </Link>
+              <Link to="/publication" className="NavBar-link">
+                  Publication
+              </Link>
             {/* <MyGoogle handleLogin={this.props.handleLogin}
             handleLogout={this.props.handleLogout}
             userId={this.props.userId} /> */}

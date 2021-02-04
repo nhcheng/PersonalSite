@@ -10,6 +10,7 @@ import Teaching from "./pages/Teaching.js"
 import MyStory from "./pages/MyStory.js"
 import Achieve from "./pages/Achieve.js"
 import Math from "./pages/Math.js"
+import Publication from "./pages/Publication.js"
 import Christian from "./pages/Christian.js"
 import ECA from "./pages/ECA.js"
 import Privacy from "./pages/Privacy.js"
@@ -67,6 +68,7 @@ class App extends Component {
             <MyStory path="/mystory" />
             <Achieve path="/achieve" />
             <Math path="/math" />
+            <Publication path="/publication" />
             <Christian path="/christianity" />
             <ECA path="/eca" />
             <Privacy path="/privacy" />
