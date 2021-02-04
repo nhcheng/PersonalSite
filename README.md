@@ -10,7 +10,6 @@ Acknowledgement to weblab staff at MIT which has provided skeleton codes and mak
 ### Continue updating README.md.
 
 ### Stage 1: Setting Up Pages
-- Creating Writing Page
 - Creating Contact Page with contact form
 - Banner for 404 Page.
 
@@ -25,14 +24,6 @@ Acknowledgement to weblab staff at MIT which has provided skeleton codes and mak
 #### ECA
 - Include engagement for last three years (Voluntary Work, ICPASS, DramSoc, Trainspotting, Minecraft, Cycling Journal, Weblab)
 
-#### Writing
-- Migrate writing page from old site to current site.
-
-#### Resume
-- Upload my pdf resume.
-- Education
-- Skills
-
 #### Contact
 - Contact Form
 
@@ -41,3 +32,13 @@ Acknowledgement to weblab staff at MIT which has provided skeleton codes and mak
 
 #### Teaching
 - Collapse/Expand Content
+
+#### Resume
+- Education
+- Language
+- Skills
+- Courses Hall of Fame
+
+#### Publication
+- Adding html version of 18.338 project.
+- Adding components for formal publication. (Well, this wouldn't happen until I have a formal publication...)
