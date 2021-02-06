@@ -3,12 +3,46 @@ import React, { Component } from "react";
 import "../../utilities.css";
 import "./CourseList.css";
 
-// apparently hardcoding list of courses for now...
+// apparently hardcoding list of courses for now... will be organised later.
+
+/**
+ * @param isExpanded
+ * @param name
+ */
+
+class YearTitle extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+    };
+  }
+
+  render () {
+    /* Expand or Collapse */
+    let pm = ""
+    if (this.props.isExpanded === true) {
+      pm = "-"
+    } else {
+      pm = "+"
+    }
+
+    return (
+      <div className="courselist-title">
+        <div className="courselist-title-left"> <h3 className="u-nomargin"> {this.props.name} </h3> </div>
+        <div className="courselist-title-right"> <h3 className="u-nomargin"> {pm} </h3> </div>
+      </div>
+    )
+  }
+}
 
 class CourseList extends Component {
   constructor(props) {
     super(props);
-    this.state = {};
+    this.state = {
+      expandyr3: false,
+      expandyr2: false,
+      expandyr1: false,
+    };
   }
 
   componentDidMount() {
@@ -19,9 +53,9 @@ class CourseList extends Component {
     return (
       <>
         <div className="u-block">
-          <h3> Year 3 (MIT Exchange) </h3>
-          <div> <h4 className="u-nomargin"> 2021 Independent Activities Period (IAP): </h4>
-            <div className="achieve-course-grid"> 
+          <YearTitle name="Year 3 (Exchange)" isExpanded={this.state.expandyr3} />
+          <div className="courselist-year-container"> <h4 className="u-nomargin"> 2021 Independent Activities Period (IAP): </h4>
+            <div className="courselist-grid"> 
               <div className="u-nomargin"> <h5 className="u-nomargin"> Attended: </h5> 
               <ul className="u-nomargin">
                 <li> 6.148 WebLab </li>
@@ -33,13 +67,13 @@ class CourseList extends Component {
                 </ul></div>
             </div>
           <div> <h4 className="u-nomargin"> 2020 Fall: </h4>
-            <div className="achieve-course-grid"> 
+            <div className="courselist-grid"> 
               <div> <h5 className="u-nomargin"> Attended: </h5> 
               <ul className="u-nomargin">
-                <li> 18.103 Fourier Analysis </li>
+                <li> 18.103 Fourier Analysis (Revisited) </li>
                 <li> 18.338 Eigenvalues of Random Matrices </li>
                 <li> 18.353 Non-Linear Dynamics: Chaos </li>
-                <li> 18.675 Theory of Statistics </li>
+                <li> 18.675 Theory of Probability (Revisited) </li>
                 </ul></div>
               <div> <h5 className="u-nomargin"> Attended as a Listener: </h5> 
               <ul className="u-nomargin">
@@ -50,9 +84,9 @@ class CourseList extends Component {
           </div>
         </div>
         <div className="u-block">
-          <h3 className="u-nomargin"> Year 2 </h3>
-          <div> <h4 className="u-nomargin"> 2020 Spring: </h4>
-            <div className="achieve-course-grid"> 
+          <YearTitle name="Year 2" isExpanded={this.state.expandyr3} />
+          <div className="courselist-year-container"> <h4 className="u-nomargin"> 2020 Spring: </h4>
+            <div className="courselist-grid"> 
               <div className="u-nomargin"> <h5 className="u-nomargin"> Attended: </h5> 
               <ul className="u-nomargin">
                 <li> Differential Equation </li>
@@ -69,7 +103,7 @@ class CourseList extends Component {
                 </ul></div>
             </div>
           <div> <h4 className="u-nomargin"> 2019 Fall: </h4>
-            <div className="achieve-course-grid"> 
+            <div className="courselist-grid"> 
               <div> <h5 className="u-nomargin"> Attended: </h5> 
               <ul className="u-nomargin">
                 <li> Multivariate Calculus (Revisited) </li>
@@ -88,9 +122,9 @@ class CourseList extends Component {
           </div>
         </div>
         <div className="u-block">
-          <h3 className="u-nomargin"> Year 1 </h3>
-          <div> <h4 className="u-nomargin"> 2019 Spring: </h4>
-            <div className="achieve-course-grid"> 
+          <YearTitle name="Year 1" isExpanded={this.state.expandyr3} />
+          <div className="courselist-year-container"> <h4 className="u-nomargin"> 2019 Spring: </h4>
+            <div className="courselist-grid"> 
               <div className="u-nomargin"> <h5 className="u-nomargin"> Attended: </h5> 
               <ul className="u-nomargin">
                 <li> Mechanics </li>
@@ -105,7 +139,7 @@ class CourseList extends Component {
                 </ul></div>
             </div>
           <div> <h4 className="u-nomargin"> 2018 Fall: </h4>
-            <div className="achieve-course-grid"> 
+            <div className="courselist-grid"> 
               <div> <h5 className="u-nomargin"> Attended: </h5> 
               <ul className="u-nomargin">
                 <li> Foundation of Analysis </li>
