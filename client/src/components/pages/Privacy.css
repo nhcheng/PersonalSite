@@ -3,35 +3,3 @@
     font-size: 48px;
     font-weight:300;
 }
-
-.privacy-container {
-    height: 91.7vh;
-    width: 100%;
-    /* background: linear-gradient(0deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url("../../images/party01.jpg");
-    background-repeat: no-repeat; 
-    background-position: 100% 0;
-    background-size: cover; */
-}
-
-.privacy-bodycontainer {
-    position: relative;
-    align-content: center;
-    width: 80%;
-    /* display: flex;
-    flex-direction: column; */
-    padding: 0% 10%;
-}
-
-.privacy-title {
-    font-size: 64px;
-    text-align: center;
-    margin: 5px;
-    color: #FFFFFF;
-}
-
-.privacy-subtitle {
-    font-size: 48px;
-    text-align: center;
-    margin: 5px;
-    color: #FFFFFF;
-}

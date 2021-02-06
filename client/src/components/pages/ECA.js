@@ -28,8 +28,7 @@ class ECA extends Component {
             DramSoc</i> production of drama <i> And Then There Were None</i>.
             I was a Deputy Stage Manager in that production. Credit to Daniel Lo.</>}
         />
-      <div className="ECA-container">
-          <div className="ECA-bodycontainer">
+        <div className="u-block">
             <h1> This is ECA </h1>
             <h2> What we provide in this skeleton</h2>
             <ul>
@@ -47,7 +46,6 @@ class ECA extends Component {
             <li>Update website title in client/dist/index.html</li>
             </ul>
           </div>
-      </div>
       </>
     );
   }

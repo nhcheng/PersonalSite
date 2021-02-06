@@ -27,9 +27,8 @@ class Christian extends Component {
           des={<> Taken in 2018 April when I baptised at my home church - <i> Oi 
             Kwan Road Baptist Church</i>. Credit to the members of choir.</>}
         />
-      <div className="Christian-container">
-          <div className="Christian-bodycontainer">
-            <h1> This is Christian </h1>
+      <div className="u-block">
+            <h1> This is Christian. </h1>
             <h2> What we provide in this skeleton</h2>
             <ul>
             <li>Google Auth (Skeleton.js & auth.js)</li>
@@ -46,7 +45,6 @@ class Christian extends Component {
             <li>Update website title in client/dist/index.html</li>
             </ul>
           </div>
-      </div>
       </>
     );
   }
