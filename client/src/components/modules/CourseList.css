@@ -1,7 +1,7 @@
 .courselist-title {
     display: flex;
     padding: 12px;
-    background-color: rgb(165, 161, 161);
+    background-color: var(--medgrey);
 }
 
 .courselist-title-left {
@@ -15,7 +15,7 @@
 
 .courselist-year-container {
     padding: 12px;
-    background-color: var(--medgrey);
+    background-color: var(--lightgrey);
 }
 
 .courselist-grid {
