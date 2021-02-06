@@ -23,9 +23,9 @@ class NavBar extends Component {
               <Link to="/" className="NavBar-link">
                   Home
               </Link>
-              <Link to="/mystory" className="NavBar-link">
+              {/* <Link to="/mystory" className="NavBar-link">
                   My Story
-              </Link>
+              </Link> */}
               <Link to="/teaching" className="NavBar-link">
                   Teaching
               </Link>
