@@ -127,3 +127,12 @@ a:hover {
 .u-link:hover {
   color: var(--primary--dim);
 }
+
+.u-ordinarybutton {
+  font-size: 100%;
+  font-family: inherit;
+  margin: 0;
+  padding: 0px 4px;
+  border: none;
+  background: none;
+}

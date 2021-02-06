@@ -34,11 +34,15 @@ class Achieve extends Component {
           <p> Lorem Lipsum</p>
         </div>
         <div className="u-block">
-          <h2> Languages and Skills </h2>
+          <h2> Languages </h2>
           <p> <b> Native: </b> Chinese, Cantonese; <b> Fluent: </b> English </p>
         </div>
         <div className="u-block">
-          <h2> Courses Hall of Frame </h2>
+          <h2> Coding Skills </h2>
+          <p> To be completed </p>
+        </div>
+        <div className="u-block">
+          <h2> Courses Hall of Fame </h2>
         </div>
         <CourseList />
       </>
