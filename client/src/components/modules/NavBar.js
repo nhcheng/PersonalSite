@@ -29,7 +29,7 @@ class NavBar extends Component {
               <Link to="/teaching" className="NavBar-link">
                   Teaching
               </Link>
-              <Link to="/math" className="NavBar-link">
+              <Link to="/research" className="NavBar-link">
                   Research
               </Link>
               <Link to="/christianity" className="NavBar-link">

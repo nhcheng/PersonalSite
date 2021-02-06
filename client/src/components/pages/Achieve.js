@@ -5,6 +5,7 @@ import "./Achieve.css";
 import TopBanner from "../modules/TopBanner.js";
 import ResumeBackground from "../../img/ResumeBanner.png"
 import ResumePDF from "../../data/Resume/CV_2021_Jan_V3.pdf"
+import CourseList from "../modules/CourseList.js"
 
 class Achieve extends Component {
   constructor(props) {
@@ -34,12 +35,12 @@ class Achieve extends Component {
         </div>
         <div className="u-block">
           <h2> Languages and Skills </h2>
-          <p> Lorem Lipsum</p>
+          <p> <b> Native: </b> Chinese, Cantonese; <b> Fluent: </b> English </p>
         </div>
         <div className="u-block">
           <h2> Courses Hall of Frame </h2>
-          <p> Lorem Lipsum</p>
         </div>
+        <CourseList />
       </>
     );
   }
