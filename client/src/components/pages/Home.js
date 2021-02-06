@@ -5,6 +5,7 @@ import "./Home.css";
 import { Link } from "@reach/router";
 import TopBanner from "../modules/TopBanner.js";
 import HomeBackground from "../../img/PersonalBanner(2).png";
+import MyAlert from "../modules/MyAlert.js"
 import randomWalk from "../../img/homerandom.png";
 import Image from "../modules/Image.js";
 
@@ -32,6 +33,12 @@ class Home extends Component {
           des="Taken in 2018 at the main entrance of Imperial College London.
           Credit to Daniel Lo."
         />
+        <div className="u-block"> 
+        <MyAlert 
+            alerttype="red"
+            content="This webpage is currently in beta, and is NOT compatible for mobile display."
+          />
+        </div>
         <div className="u-block">
         <div className="u-flex">
           <div className="home-flexleft">
