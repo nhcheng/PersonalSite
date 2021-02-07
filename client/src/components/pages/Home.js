@@ -85,7 +85,8 @@ class Home extends Component {
           <h2> Outside academia... </h2>
           <p>
             In addition, I enjoy performing music (mainly by playing piano), building Minecraft architectures, 
-            exploring Christianity and developing webpages.
+            exploring Christianity and developing webpages. I also enjoy cycling around (I have only learnt this when I 
+            was Year 2)!
           </p>
           <p> <Link to="/christianity"> Click here for my engagement in church. </Link> </p>
           <p> <Link to="/eca"> Click here for other extra-curricular engagements. </Link> </p>
