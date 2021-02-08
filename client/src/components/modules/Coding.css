@@ -11,7 +11,7 @@
     padding: 12px;
     justify-content: center;
     align-items: center;
-    background: var(--lightgrey);
+    background: rgb(231, 231, 231);
 }
 
 .coding-card + .coding-card{
@@ -19,6 +19,7 @@
 }
 
 .coding-fig {
+    background: white;
     height: 20vh;
     padding: 10px;
 }
@@ -26,6 +27,5 @@
 .coding-des {
     text-align: center;
     padding: 10px;
-    margin-top: 5px;
     background-color: var(--medgrey);
 }
