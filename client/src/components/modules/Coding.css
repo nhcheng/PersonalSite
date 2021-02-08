@@ -1,0 +1,31 @@
+.coding-block + .coding-block {
+    margin: 12px 0px;
+}
+
+.coding-title {
+    padding: 12px;
+    background-color: var(--medgrey);
+}
+
+.coding-container {
+    padding: 12px;
+    justify-content: center;
+    align-items: center;
+    background: var(--lightgrey);
+}
+
+.coding-card + .coding-card{
+    margin-left: 10vh;
+}
+
+.coding-fig {
+    height: 20vh;
+    padding: 10px;
+}
+
+.coding-des {
+    text-align: center;
+    padding: 10px;
+    margin-top: 5px;
+    background-color: var(--medgrey);
+}

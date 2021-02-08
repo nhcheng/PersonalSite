@@ -9,6 +9,7 @@ import ImageFlex from "../modules/ImageFlex.js";
 import ResumeBackground from "../../img/ResumeBanner.png";
 import {EducationList} from "../../data/Resume/Education.js";
 import ResumePDF from "../../data/Resume/CV_2021_Jan_V3.pdf";
+import Coding from "../modules/Coding.js";
 import CourseList from "../modules/CourseList.js";
 
 class Achieve extends Component {
@@ -45,7 +46,7 @@ class Achieve extends Component {
         </div>
         <div className="u-block">
           <h2> Coding Skills </h2>
-          <p> To be completed </p>
+          <div> <Coding /> </div>
         </div>
         <div className="u-block">
           <h2> Courses Hall of Fame </h2>
