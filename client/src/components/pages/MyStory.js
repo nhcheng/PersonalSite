@@ -18,7 +18,7 @@ class Mystory extends Component {
 
   render() {
     return (
-      <>
+      <div className="App-container">
       <TopBanner 
           background={myStoryBackground}
           title={<>MY <span className="mystory-highlight"> STORY </span></>}
@@ -70,7 +70,7 @@ class Mystory extends Component {
           (probably a result of my ASD). Let's see where would God take me to.
         </p>
       </div>
-      </>
+      </div>
     );
   }
 }

@@ -22,7 +22,7 @@ class Christian extends Component {
 
   render() {
     return (
-      <>
+      <div className="App-container">
       <TopBanner 
           background={ChristianBackground}
           title={(<> THE NEW <span className="Christian-highlight"> LIFE </span></>)}
@@ -78,7 +78,7 @@ class Christian extends Component {
                 <li>Short Notes on Psalm 126 (Prayer Breakfast Discussion). <a href={Psalm}>Notes</a></li>
               </ul>
         </div>
-      </>
+      </div>
     );
   }
 }

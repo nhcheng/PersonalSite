@@ -17,7 +17,7 @@ class Privacy extends Component {
 
   render() {
     return (
-      <>
+      <div className="App-container">
         <TopBanner 
           background={PrivacyBackground}
           // title="CHUN HEI SAMUEL LAM"
@@ -47,7 +47,7 @@ class Privacy extends Component {
             <li>Update website title in client/dist/index.html</li>
             </ul>
         </div>
-      </>
+      </div>
     );
   }
 }

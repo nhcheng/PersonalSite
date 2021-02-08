@@ -61,7 +61,6 @@ class App extends Component {
         <NavBar /> {/* handleLogin={this.handleLogin}
               handleLogout={this.handleLogout}
               userId={this.state.userId} */}
-        <div className="App-container">
           <Router>
             <Home path="/" />
             <Teaching path="/teaching" />
@@ -74,7 +73,6 @@ class App extends Component {
             <Privacy path="/privacy" />
             <NotFound default />
           </Router>
-        </div>
         <BottomBanner />
       </>
     );

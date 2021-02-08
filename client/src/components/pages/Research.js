@@ -22,7 +22,7 @@ class Research extends Component {
 
   render() {
     return (
-      <>
+      <div className="App-container">
       <TopBanner 
           background={mathBackground}
           title={<> To the wonder of <span 
@@ -85,7 +85,7 @@ class Research extends Component {
       <div className="u-block">
           <h3> Please visit <Link to="/publication">this</Link> page for publications. </h3> 
       </div>
-      </>
+      </div>
     );
   }
 }

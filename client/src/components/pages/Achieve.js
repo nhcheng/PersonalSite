@@ -24,7 +24,7 @@ class Achieve extends Component {
 
   render() {
     return (
-      <>
+      <div className="App-container">
         <TopBanner 
           background={ResumeBackground}
           title={<> <span className="achieve-highlight">RESUME</span> and Achievements </>}
@@ -52,7 +52,7 @@ class Achieve extends Component {
           <h2> Courses Hall of Fame </h2>
         </div>
         <CourseList />
-      </>
+      </div>
     );
   }
 }

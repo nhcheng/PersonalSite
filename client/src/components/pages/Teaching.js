@@ -20,7 +20,7 @@ class Teaching extends Component {
 
   render() {
     return (
-    <>
+    <div className="App-container">
       <TopBanner 
           background={TeachingBackground}
           title={<span className="teaching-highlight"> TEACHING </span>}
@@ -81,7 +81,7 @@ class Teaching extends Component {
             <li> (16/12)* Sendoff </li>
             </ul>
       </div>
-    </>  
+    </div>  
     );
   }
 }

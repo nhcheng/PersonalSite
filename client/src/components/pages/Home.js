@@ -21,7 +21,7 @@ class Home extends Component {
 
   render() {
     return (
-      <>
+      <div className="App-container">
         <TopBanner 
           background={HomeBackground}
           // title="CHUN HEI SAMUEL LAM"
@@ -91,7 +91,7 @@ class Home extends Component {
           <p> <Link to="/christianity"> Click here for my engagement in church. </Link> </p>
           <p> <Link to="/eca"> Click here for other extra-curricular engagements. </Link> </p>
         </div>
-        </>
+        </div>
     );
   }
 }

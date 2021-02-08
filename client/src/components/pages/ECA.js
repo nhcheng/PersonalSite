@@ -24,7 +24,7 @@ class ECA extends Component {
 
   render() {
     return (
-      <>
+      <div className="App-container">
         <TopBanner 
           background={ECABackground}
           // title="CHUN HEI SAMUEL LAM"
@@ -113,7 +113,7 @@ class ECA extends Component {
             </ul>
           </div>
         </div>
-      </>
+      </div>
     );
   }
 }

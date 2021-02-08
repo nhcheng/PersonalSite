@@ -28,7 +28,7 @@ class Publication extends Component {
 
   render() {
     return (
-      <>
+      <div className="App-container">
         <TopBanner 
           background={PublicationBackground}
           title={(<span className="publication-highlight"> PUBLICATION </span>)}
@@ -60,7 +60,7 @@ class Publication extends Component {
                     <li>Simple Application of Approximate Bayesian Computation (ABC) in Modelling Tumor Growth, 2019. (supervised by A. Duncan) (1st year research project) <a href={M1RPDF}>Poster</a>, <a href={M1RPres}>Slides</a></li>
                 </ul>
         </div>
-      </>
+      </div>
     );
   }
 }
