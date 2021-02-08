@@ -10,7 +10,6 @@ Acknowledgement to weblab staff at MIT which has provided skeleton codes and mak
 ### Continue updating README.md.
 
 ### Stage 1: Setting Up Pages
-- Creating Contact Page with contact form
 - Banner for 404 Page.
 
 ### Stage 2: Filling in Important Pages
@@ -40,4 +39,5 @@ Acknowledgement to weblab staff at MIT which has provided skeleton codes and mak
 - Content need update!
 
 #### Contact
+- Creating Contact Page with contact form
 - Contact Form
