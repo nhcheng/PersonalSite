@@ -40,8 +40,8 @@ class NavBar extends Component {
               </Link>
             </div>
             <div className="NavBar-linkContainer u-inlineBlock">
-              <Link to="/achieve" className="NavBar-link">
-                  Resume
+              <Link to="/cv" className="NavBar-link">
+                  Curriculum Vitae
               </Link>
               <Link to="/publication" className="NavBar-link">
                   Publication

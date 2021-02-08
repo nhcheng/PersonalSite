@@ -27,7 +27,7 @@ class Achieve extends Component {
       <div className="App-container">
         <TopBanner 
           background={ResumeBackground}
-          title={<> <span className="achieve-highlight">RESUME</span> and Achievements </>}
+          title={<> <span className="achieve-highlight">Curriculum Vitae</span> and Achievements </>}
           content={<> This page contains my general background and skills.
           You can also read my full Curriculum Vitae <a href={ResumePDF}>here.</a></>}
           des="Taken in 2018 during final presentation of Year 1 Research Project.

@@ -99,7 +99,7 @@ class ECA extends Component {
           <div className="ECA-secondfigleft">
             <Image 
               src={cambodia}
-              des="Offering English classes in Cambodia service trip, 2018 summer."
+              des="Offering English classes in Cambodia service trip, 2018 summer. Credit to Richard Lee."
             />
           </div>
           <div className="ECA-secondfigright">

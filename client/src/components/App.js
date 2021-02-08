@@ -65,7 +65,7 @@ class App extends Component {
             <Home path="/" />
             <Teaching path="/teaching" />
             <MyStory path="/mystory" />
-            <Achieve path="/achieve" />
+            <Achieve path="/cv" />
             <Research path="/research" />
             <Publication path="/publication" />
             <Christian path="/christianity" />

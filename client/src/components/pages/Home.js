@@ -36,7 +36,7 @@ class Home extends Component {
         <div className="u-block"> 
         <MyAlert 
             alerttype="red"
-            content="This webpage is currently in beta, and is NOT compatible for mobile display."
+            content="This webpage is currently in alpha, and is NOT compatible for mobile display."
           />
         </div>
         <div className="u-block">
@@ -88,7 +88,7 @@ class Home extends Component {
             exploring Christianity and developing webpages. I also enjoy cycling around (I have only learnt this when I 
             was Year 2)!
           </p>
-          <p> <Link to="/christianity"> Click here for my engagement in church. </Link> </p>
+          <p> <Link to="/christianity"> Click here for my engagement as a christian. </Link> </p>
           <p> <Link to="/eca"> Click here for other extra-curricular engagements. </Link> </p>
         </div>
         </div>
