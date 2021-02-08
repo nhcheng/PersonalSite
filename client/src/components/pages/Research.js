@@ -45,10 +45,11 @@ class Research extends Component {
             a symmetric matrix." />
           </div>
           <div className="research-ml-right">
-            <h3> Theory of Machine Learning </h3>
-            <p> Machine learning aims to explore the underlying features of datasets and make sound predictions. I am interested in the statistical properties 
-              of the estimators arisen from machine learning algorithms (e.g. PCA). Thanks to recent advances in random matrix theory, we may prove quantitative 
-              estimates of distributions of estimators (e.g. oracle inequalities), and hence evaluate their reliability.</p>
+            <h3> Theory of Statistical Learning </h3>
+            <p> Statistical Learning (including Machine learning) aims to explore the underlying features of datasets and make sound predictions. 
+              I am interested in the statistical properties of the estimators arisen from machine learning algorithms (e.g. PCA). 
+              Thanks to recent advances in random matrix theory, we may prove quantitative estimates of distributions of estimators 
+              (e.g. oracle inequalities), and hence evaluate their reliability.</p>
           </div>
           <div className="research-bayes-left">
             <Image src={Predictive}

@@ -35,13 +35,13 @@ class ECA extends Component {
         />
         <div className="u-block">
             <h2> Year 2/3</h2>
-            <p> Not much could be done due to COVID-19 😢. Here is a short list of stuff I have done:
+            <p> Not much could be done due to COVID-19 😢 -- I have tried my best:
             </p>
             <ul>
               <li> (Year 3) I have finally learnt how to build a webpage in <a href="https://weblab.mit.edu/">MIT web.lab</a>.
               We have progressed from a simple HTML webpage to a webpage with all the elements in a typical MERN 
               stack. <a href="https://eventinder.herokuapp.com/">Here</a> is the webpage I have built with my team, which doesn't have 
-              much CSS styling. A better-looking website would be the one you are looking at now, even though less features are implemented. </li>
+              much CSS styling. A better-looking website would be the one you are looking at now, even though it is not built in full MERN stack. </li>
               <li> (Year 3) I will probably take a music course in the spring term. I may also join musical theatre performances. </li>
               <li> (Year 2/3) I am a senior admin of my minecraft server. Together with two other friends we have built railway stations 
                 and buildings. We have developed and implemented a mod which allow players to travel to/from servers. <b>Official wikipage to be 
@@ -87,7 +87,7 @@ class ECA extends Component {
                     estimation, but it is quite informal and might be erroneous...</li>
                 </ul>  
                  </li>
-              <li> I have participated in various performances in the Imperial Drama Society (DramSoc):
+              <li> I have participated in various performances in the Imperial Dramatic Society (DramSoc):
                 <ul>
                   <li> <b> 2019 Spring: Legally Blonde (with ICU Musical Theatre Society): </b> As Sound Designer. </li>
                   <li> <b> 2018 Autumn: And Then There Were None: </b> As Deputy Stage Manager. </li>

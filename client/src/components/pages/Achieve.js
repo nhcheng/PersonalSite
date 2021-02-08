@@ -2,10 +2,14 @@ import React, { Component } from "react";
 
 import "../../utilities.css";
 import "./Achieve.css";
+
 import TopBanner from "../modules/TopBanner.js";
-import ResumeBackground from "../../img/ResumeBanner.png"
-import ResumePDF from "../../data/Resume/CV_2021_Jan_V3.pdf"
-import CourseList from "../modules/CourseList.js"
+import ImageFlex from "../modules/ImageFlex.js";
+
+import ResumeBackground from "../../img/ResumeBanner.png";
+import {EducationList} from "../../data/Resume/Education.js";
+import ResumePDF from "../../data/Resume/CV_2021_Jan_V3.pdf";
+import CourseList from "../modules/CourseList.js";
 
 class Achieve extends Component {
   constructor(props) {
@@ -31,7 +35,9 @@ class Achieve extends Component {
         />
         <div className="u-block">
           <h2> Education </h2>
-          <p> Lorem Lipsum</p>
+          {EducationList.map((item) => { return (
+              <ImageFlex key={item.key} imageandDes={item}/>)
+            })}
         </div>
         <div className="u-block">
           <h2> Languages </h2>
