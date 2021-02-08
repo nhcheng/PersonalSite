@@ -72,14 +72,14 @@ class Home extends Component {
             tutor at Imperial College helping current freshmen (first-year undergraudates) to adopt
             university life in a rapidly-changing Covid-19 situation.
             </p>
-          <p> <Link to="/math"> Click here for more details and publications. </Link> </p>
+          <p> <Link to="/publication"> Click here for more details and publications. </Link> </p>
           <p>
             My personal journey in mathematics began when I entered the HKCCCU Logos Academy (a comprehensive
             school in Hong Kong). I had participated various enrichment programs offered by the Hong Kong University
             of Science and Technology (HKUST) from Grade 8 to Grade 11. I then completed GCE A-Level and joined Imperial 
             College London at the age of 16.
           </p>
-          <p> <Link to="/mystory"> Click here to read my stories. </Link> </p>
+          {/* <p> <Link to="/mystory"> Click here to read my stories. </Link> </p> */}
           </div>
         <div className="u-block">
           <h2> Outside academia... </h2>
