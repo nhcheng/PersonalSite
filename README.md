@@ -15,30 +15,29 @@ Acknowledgement to weblab staff at MIT which has provided skeleton codes and mak
 
 ### Stage 2: Filling in Important Pages
 
-#### Research
-- Include short research descriptions
+#### Roll out and privacy notice.
 
-#### Religion
-- Include engagement in churches, CU and writings.
-
-#### ECA
-- Include engagement for last three years (Voluntary Work, ICPASS, DramSoc, Trainspotting, Minecraft, Cycling Journal, Weblab)
-
-#### Contact
-- Contact Form
-
+### Beta: Proofreading Contents and Fixing Issues
 
 ### Stage 3: Further Styling
+
+#### Generally making css mobile capable.
 
 #### Teaching
 - Collapse/Expand Content
 
 #### Resume
-- Education
-- Language
-- Skills
-- Courses Hall of Fame
+- Better styling for education
 
 #### Publication
 - Adding html version of 18.338 project.
-- Adding components for formal publication. (Well, this wouldn't happen until I have a formal publication...)
+- Adding components for formal publication. (Well, this wouldn't happen until I have a formal publication...) This is where MongoDB comes in!
+
+#### MyStory
+- Beta Testing!
+
+#### Religion
+- Content need update!
+
+#### Contact
+- Contact Form
