@@ -16,13 +16,13 @@ class MyAlert extends Component {
     let Content = null;
 
     if (this.props.alerttype === "green") {
-        Content = (<div className="alert alert-green"> <p className="u-nomargin"> {this.props.content} </p> </div>);
+        Content = (<div className="alert alert-green"> {this.props.content} </div>);
     } else if (this.props.alerttype === "yellow") {
-        Content = (<div className="alert alert-yellow"> <p className="u-nomargin"> {this.props.content} </p> </div>);
+        Content = (<div className="alert alert-yellow"> {this.props.content} </div>);
     } else if (this.props.alerttype === "red") {
-        Content = (<div className="alert alert-red"> <p className="u-nomargin"> {this.props.content} </p> </div>);
+        Content = (<div className="alert alert-red"> {this.props.content} </div>);
     } else {
-        Content = (<div className="alert"> <p className="u-nomargin"> {this.props.content} </p> </div>);
+        Content = (<div className="alert"> {this.props.content} </div>);
     }
 
       return (
