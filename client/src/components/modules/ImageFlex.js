@@ -21,7 +21,7 @@ class ImageFlex extends Component {
             <div className="u-flex imageflex-margin"> 
                 <div className="imageflex-title-left"> 
                     <h3 className="u-nomargin"> {this.props.imageandDes.title} </h3>
-                    <p className="u-nomargin"> {this.props.imageandDes.titledes} </p>
+                    <p className="u-nomargin imageflex-title-des"> {this.props.imageandDes.titledes} </p>
                 </div>
                 <div className="imageflex-title-right">
                     <p className="u-nomargin"> {this.props.imageandDes.titleright} </p>

@@ -4,13 +4,13 @@
 }
 
 .imageflex-left {
-    width: 15%;
+    width: 10%;
     padding: 6px;
 }
 
 .imageflex-right {
     margin-left: 5%;
-    width: 80%;
+    width: 85%;
 }
 
 .imageflex-margin {
@@ -19,6 +19,11 @@
 
 .imageflex-title-left {
     width: 70%
+}
+
+.imageflex-title-des {
+    color: gray;
+    font-style: italic;
 }
 
 .imageflex-title-right {
