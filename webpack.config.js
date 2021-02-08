@@ -26,7 +26,7 @@ module.exports = {
   entry: ["@babel/polyfill", entryFile],
   output: {
     path: outputDir,
-    publicPath: "/",
+    publicPath: "/PersonalSite/",
     filename: "bundle.js",
   },
   devtool: "inline-source-map",
