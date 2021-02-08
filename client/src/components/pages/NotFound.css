@@ -2,7 +2,7 @@
     height: 56vh;
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url("../../img/NotFoundBanner.jpg");
     background-repeat: no-repeat; 
-    background-position: 75% 0;
+    background-position: 50% 0;
     background-size: cover;
     margin: 0;
     padding: 0;
@@ -10,25 +10,21 @@
 
 .notfound-bodycontainer {
     position: relative;
-    top: 20vh;
+    top: 30%;
     align-content: center;
-    width: 80%;
+    width: 50%;
     /* display: flex;
     flex-direction: column; */
-    padding: 0% 10%;
+    padding: 0% 40% 0% 10%;
     color: white;
 }
 
-.notfound-title {
-    font-size: 64px;
-    text-align: center;
-    margin: 5px;
-    color: #FFFFFF;
-}
-
-.notfound-subtitle {
-    font-size: 48px;
-    text-align: center;
-    margin: 5px;
-    color: #FFFFFF;
+.notfound-des {
+    position: relative;
+    top: 30px;
+    text-align: right;
+    padding-left: 18%;
+    font-size: 14px;
+    font-weight: 250;
+    color: var(--medgrey);
 }
