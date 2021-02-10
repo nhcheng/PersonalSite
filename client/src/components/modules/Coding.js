@@ -9,7 +9,7 @@ import julia from "../../img/logo/skills/julia.png";
 import matlab from "../../img/logo/skills/matlab.png";
 import mern from "../../img/logo/skills/mern_logo_cut.png";
 import python from "../../img/logo/skills/python.png";
-import rlang from "../../img/logo/skills/r.png";
+import rlang from "../../img/logo/skills/R.png";
 
 const sciComp = [
     {lang: "Julia", src: julia},

@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 import "../../utilities.css";
 import TopBanner from "../modules/TopBanner.js"
-import "./Mystory.css";
+import "./MyStory.css";
 import myStoryBackground from "../../img/myStoryBanner.png";
 import MyAlert from "../modules/MyAlert.js"
 
